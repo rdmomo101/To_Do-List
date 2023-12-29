@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>T0-do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-list">
+        <div class="title">
+          <i class="fa-solid fa-list"></i>
+          <h2>To-Do List</h2>
+        </div>
+        <div class="add-task">
+          <input
+            type="text"
+            name=""
+            id="input-box"
+            placeholder="Add Your Task"
+          />
+          <button class="add">Add</button>
+        </div>
+
+        <div class="task-mangment">
+          <button class="all-task" id="all-task">Tasks 0</button>
+
+          <button class="delete-all" id="delete-all-task">Delete All</button>
+        </div>
+
+        <div class="task-container">
+          <ul id="tasks"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
